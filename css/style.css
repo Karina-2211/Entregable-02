@@ -1,0 +1,48 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+    flex-wrap: wrap;
+}
+
+/**COLOR DE FONDO**/
+body{
+    background-color: #2D2D2D;
+}
+header {
+    border-bottom: 1px solid white;
+    background-color: #e5fd4f;
+    display:flex;
+    justify-content: space-between;
+    align-items: self-end;
+}
+
+header img{
+width: 95px;
+}
+
+.navegable li a {
+    text-decoration: none;
+}
+
+header nav ul {
+    display:flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin:10px;
+}
+
+header nav ul li a {
+    color:black;
+    background: color #e5fd4f;
+}
+
+main{
+    background-color: #cfcfc7;
+}
+
+footer{
+    background-color: #e5fd4f;
+}
