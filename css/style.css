@@ -18,7 +18,7 @@ header {
 }
 
 header img{
-width: 95px;
+width: 80px;
 }
 
 .navegable li a {
@@ -42,6 +42,12 @@ header nav ul li a {
 main{
     background-color: #cfcfc7;
 }
+
+
+.contacto{
+    text-align: center;
+}
+
 
 footer{
     background-color: #e5fd4f;
