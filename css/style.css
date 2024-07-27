@@ -15,6 +15,7 @@ header {
     display:flex;
     justify-content: space-between;
     align-items: self-end;
+    margin-bottom: 20px;
 }
 
 header img{
