@@ -24,13 +24,14 @@ width: 80px;
 .navegable li a {
     text-decoration: none;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid #2D2D2D;
     border-radius: 10px;
 }
 
 .navegable li a:hover{
     background-color: #2D2D2D;
     color:#e5fd4f;
+    transition: 0.5s;
 }
 
 header nav ul {
@@ -43,7 +44,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color:black;
+    color:#2D2D2D;
     background: color #e5fd4f;
  
 }
@@ -60,5 +61,7 @@ main{
 
 footer{
     background-color: #e5fd4f;
-   align-items: end;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: self-end;
 }
