@@ -54,6 +54,10 @@ main{
     background-color: #cfcfc7;
 }
 
+section{
+    padding: 30px;
+    text-align:justify ;
+}
 
 .contacto{
     text-align: center;
@@ -65,4 +69,10 @@ footer{
     display: flexbox;
     justify-content: space-between;
     align-items: self-end;
+}
+
+footer ul {
+    display:flex;
+    list-style-type: none;
+    align-items: center;
 }
