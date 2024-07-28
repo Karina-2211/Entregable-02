@@ -1,22 +1,19 @@
 *{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 2px;
-    margin-right: 2px;
+    padding:0;
+    margin: 0;
     flex-wrap: wrap;
 }
-
 /**COLOR DE FONDO**/
 body{
     background-color: #2D2D2D;
 }
 header {
-    border-bottom: 1px solid white;
     background-color: #e5fd4f;
     display:flex;
     justify-content: space-between;
-    align-items: self-end;
-    margin-bottom: 20px;
-}
+    align-items: center;
+    }
 
 header img{
 width: 80px;
@@ -25,6 +22,7 @@ width: 80px;
 .navegable li a {
     text-decoration: none;
     padding: 10px;
+    margin: 5px;
     border: 1px solid #2D2D2D;
     border-radius: 10px;
 }
@@ -40,24 +38,26 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
-    margin:10px;
-}
-
 header nav ul li a {
     color:#2D2D2D;
-    background: color #e5fd4f;
+    background-color: #e5fd4f;
  
 }
-
+.imagen-rubro{
+    width: 50px;
+}
 main{
     background-color: #cfcfc7;
+    margin: 20px 5px 20px 5px;
 }
 
+
 section{
-    padding: 30px;
+    padding: 20px ;
     text-align:justify ;
 }
+
+
 
 .contacto{
     text-align: center;
