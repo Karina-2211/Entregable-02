@@ -6,12 +6,12 @@
 }
 
 /*DESKTOP*/
-@media only screen and (min-width:901px)and (max-:1200px) {
-
+@media only screen and (min-width:600px)and (max-:1200px) {
+  
 }
 /*MOBILE*/
-@media only screen and (max-:600px) {
-
+@media only screen and (max-width:480px) {
+  
 }
 
 /*COLOR DE FONDO*/
@@ -19,6 +19,7 @@ body{
     background-color: #2D2D2D;
 }
 
+/*HEADER NAVEGABLE*/
 header{
     background-color: #e5fd4f; 
     display: flex;
@@ -48,17 +49,19 @@ width: 80px;
     color:#e5fd4f;
     transition: 0.5s;
 }
-
 .boton-ham{
     width: 20px;
     margin-right: 5px;
     display: flex;
     align-items: center;
     display:none;
+    background-color: red;
 }
 
+/*ESTILO DE INICIO*/
 .imagen-rubro{
-    width: 50px;
+    width: 100%;
+    align-items: center;
 }
 
 main{
@@ -66,7 +69,11 @@ main{
     margin: 20px 5px;
     text-align:justify ;
     }
-
+    
+main section h1{
+    margin: 10px;
+    padding: 10px;
+}
 main p{
     padding: 10px;
 }
@@ -76,11 +83,21 @@ h1{
     font-weight: normal;
 }
 
+/*ESTILOS DE SERVICIOS*/
+.grid-container-serv{
+    margin:5px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); padding: 10px;
+    align-items: center;
+    align-content: center;
+}
 
+/*ESTILOS DE CONTACTO*/
 .contacto{
     text-align: center;
 }
-
+/*FOOTER DE PÁGINA*/
 .footer { background-color: #e5fd4f;
 }
 
@@ -97,5 +114,4 @@ h1{
     display: inline;
     justify-content: space-between;
     text-decoration: none;
-
 }
