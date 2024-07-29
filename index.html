@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
     <title>VLC Servicios Eléctricos</title>
 
@@ -16,8 +16,11 @@
 
 <body>
     <!-- ENCABEZADO NAVEGABLE-->
-    <header>
-        <img src="img/VLC-Logo.jpg" alt="VLC-Logo">
+    <header >
+        <div class="vlc-logo">
+            <img src="img/VLC-Logo.jpg" alt="VLC-Logo">
+        </div>
+        
         <nav>
             <ul class="navegable">
                 <li><a href="index.html" class="nav-inicio">Inicio</a></li>
@@ -26,7 +29,12 @@
                 <li><a href="html/galeria.html" class="nav-galeria">Galería</a></li>
                 <li><a href="html/contacto.html" class="nav-contacto">Contacto</a></li>
             </ul>
+
+        
         </nav>
+        <div class="boton-ham">
+            <img src="./img/menu-icon.png" alt="nav-ham">
+        </div>
     </header>
     <!--FIN ENCABEZADO NAVEGABLE-->
 <main>
@@ -52,12 +60,21 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
-<footer>
-    <p>Para más información:</p>
-    <ul>
-        <li><a href=""></a><img src="./img/email-icon.png" alt="logo-email" width="25px"></li>
-        <li><a href=""></a><img src="./img/whatsapp-icon.png" alt="logo-wsp" width="25px"></li>
-        <li><a href=""></a><img src="./img/insta-icon.png" alt="logo-insta" width="25px"></li>
-    </ul>
+
+
+<footer class="footer">
+
+    <div class="footer-content container">
+        <p>Para más información:</p>
+
+        <div class="link">
+            <li><a href=""></a><img src="./img/email-icon.png" alt="logo-email" width="25px"></li>
+
+            <li><a href="https://api.whatsapp.com/send/?phone=56958597411" target="_blank"><img src="./img/whatsapp-icon.png" alt="logo-wsp" width="25px"></a></li>
+
+            <li><a href="https://www.instagram.com/vlc_soluciones_electricas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="./img/insta-icon.png" alt="logo-insta" width="25px"></a></li>
+        </div>
+    </div>
+
 </footer>
 </html>
